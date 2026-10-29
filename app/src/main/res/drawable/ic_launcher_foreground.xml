@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lens + aperture mark. Everything sits inside the 66dp safe zone of the 108dp adaptive-icon canvas. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- outer lens ring -->
+    <path
+        android:pathData="M28,54 a26,26 0 1,1 52,0 a26,26 0 1,1 -52,0 z"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="6"
+        android:fillColor="#00000000" />
+
+    <!-- aperture hexagon -->
+    <path
+        android:pathData="M68,54 L61,66.12 L47,66.12 L40,54 L47,41.88 L61,41.88 z"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="3"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- blades -->
+    <path
+        android:pathData="M68,54 L75,54 M61,66.12 L64.5,72.19 M47,66.12 L43.5,72.19 M40,54 L33,54 M47,41.88 L43.5,35.81 M61,41.88 L64.5,35.81"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- centre -->
+    <path
+        android:pathData="M54,49 a5,5 0 1,1 0,10 a5,5 0 1,1 0,-10 z"
+        android:fillColor="#FFB300" />
+</vector>
